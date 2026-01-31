@@ -1,0 +1,1 @@
+O algoritmo calcula o resultado da multiplicação de 9 por um valor n através da manipulação dos dígitos, gerando a dezena (n-1) e a unidade (10-n), e combinando-os em um resultado final impresso na tela.
