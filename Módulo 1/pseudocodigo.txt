@@ -1,0 +1,16 @@
+Algoritmo TabuadaDoNove
+Var
+   n, d_dezena, d_unidade, resultado : Inteiro
+Inicio
+   // Entrada: Leitura dos dados necessários
+   Escreva("Digite o valor de n (o multiplicador): ")
+   Leia(n)
+
+   // Processamento: Operações listadas nas regras
+   d_dezena <- n - 1
+   d_unidade <- 10 - n
+   resultado <- (d_dezena * 10) + d_unidade
+
+   // Saída: Impressão do resultado final
+   Escreva("O resultado de 9 x ", n, " é: ", resultado)
+FimAlgoritmo
